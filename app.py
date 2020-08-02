@@ -63,7 +63,7 @@ def error(bot, update):
 
 if __name__ == "__main__":
     bot = Bot(TOKEN)
-    bot.set_webhook("https://floating-ravine-61755.herokuapp.com/" + TOKEN)
+    bot.set_webhook("https://enigmatic-citadel-27238.herokuapp.com/" + TOKEN)
 
     dp = Dispatcher(bot, None)
     dp.add_handler(CommandHandler("start", start))
